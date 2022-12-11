@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Upload a video</title>
+
+    <style>
+      h2{
+        display: block;
+        font-size: 1.17em;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./pages/collection-1.html">Collection 1</a>
+      <a href="./pages/collection-2.html">Collection 2</a>
+      <a href="./pages/collection-3.html">Collection 3</a>
+      <a href="./form.html">Upload a video</a>
+    </nav>
+
+    <h1>Add a New Video</h1>
+    <hr>
+
+    <form action="">
+      <h2><label for="videoTitle">Video Title</label></h2>
+      <input id="videoTitle" name="title" type="text" placeholder="Name your video">
+      <br><br>
+
+      <h2><label for="description">Description</label></h2>
+      <textarea id="description" name="description" cols="40" rows="15" placeholder="Describe your video"></textarea>
+      <br><br>
+
+      <h2><label for="video">Attach Video File</label></h2>
+      <input id="video" name="video" type="file">
+      <br><br>
+
+      <h2><label for="collection">Choose Collection</label></h2>
+      <select name="collection" id="collection">
+        <option value="null" disable selected>Choose Collection</option>
+        <option value="1">Collection 1</option>
+        <option value="2">Collection 2</option>
+        <option value="3">Collection 3</option>
+      </select>
+      <br><br>
+
+      <input type="radio" id="public" name="valuePublicPrivate">
+      <label for="public">Public</label>
+      <input type="radio" id="private" name="valuePublicPrivate">
+      <label for="private">Private</label>
+      <br><br>
+
+      <input type="submit" value="Upload Video">
+    </form><br>
+
+    <footer>
+      <hr>
+      &copy; COPYRIGHT: Made by Vishal patel
+    </footer>
+  </body>
+</html>
