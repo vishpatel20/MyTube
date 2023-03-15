@@ -1,23 +1,56 @@
-body {
+.homepage{
+    background-image: url("https://images.unsplash.com/photo-1551103782-8ab07afd45c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+
     text-align: center;
-    color: white;
+    color: rgb(239, 135, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
     overflow: hidden;
 }
-nav a {
-    color: white;
-    font-size: 30px;
+
+.homeBoxShadow{
+    box-shadow: 
+    rgb(255, 255, 255) 0px 25px 25px, 
+    rgba(255, 255, 255, 0.906) 0px -12px 30px, 
+    rgb(255, 255, 255) 0px 4px 6px,
+    rgb(255, 255, 255) 0px 12px 13px, 
+    rgb(255, 254, 254) 0px -3px 5px;
+    opacity: 80%;
+
+    border-radius: 20px;
+    background: rgb(239, 135, 0);
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+.homepage-h3{
+    font-size: 20px;
+}
+
+.homepage-A-tag {
+    color: rgb(239, 135, 0);
+    font-size: 25px;
     margin-right: 15px;
 }
+
+a:hover{
+    color: red;
+}
+
+a{
+    color: rgb(239, 135, 0);
+}
+
 nav{
-    margin-bottom: 25px;
+    margin-bottom: 80px;
 }
-table {
-    margin: auto;
-}
+
 h2 {
     display: block;
     font-size: 1.17em;
@@ -27,42 +60,110 @@ h2 {
     margin-right: 0;
     font-weight: bold;
 }
-iframe {
-    border-radius: 20px;
-    background: black;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
-}
-.img{
-    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-blue-technology-background-banner-picture-image_1034452.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    height: 1000px;
-    background-position: 100%;
-}
-footer{
+
+.homepage-footer{
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem; 
 }
-form {
-    border: 3px solid white;
+
+.form{
+    border: 5px solid white;
     background-color: black;
     width: 600px;
-    height: 550px;
+    margin: auto;
+    height: max-content;
     text-align: left;
     padding: 20px 30px;
     opacity: 0.8;
-    font-size: 20px;
-    border-radius: 15px;
+    color: white;
+    border-radius: 10px;
 }
-input, select, textarea{
+
+input, select{
     width: 100%;
-    height: 30px;
+    height: 25px;
 }
-textarea {
-    height: 100px;
+
+.formPage{
+    text-align: center;
+    background-image: url("https://plus.unsplash.com/premium_photo-1676867228840-16234eca9831?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80");
+}
+
+.textarea{
+    width: 100%;
+}
+.form-A-tag{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.form-footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+}
+
+.collection{
+    text-align: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.one{
+    background-image: url("https://images.unsplash.com/photo-1536799097017-5b57f1a7e56e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2748&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.two{
+    background-image: url("https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.three{
+    background-image: url("https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heading{
+    color: white;
+    background-color: black;
+    opacity: 60%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.videos-collection{
+    box-shadow: 
+    rgb(255, 255, 255) 0px 25px 25px, 
+    rgba(255, 255, 255, 0.906) 0px -12px 30px, 
+    rgb(255, 255, 255) 0px 4px 6px,
+    rgb(255, 255, 255) 0px 12px 13px, 
+    rgb(255, 254, 254) 0px -3px 5px;
+    opacity: 80%;
+}
+
+.collection-footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+}
+
+.collections-A-tag{
+    color: white;
+    font-size: 25px;
+    margin-right: 10px;
 }
